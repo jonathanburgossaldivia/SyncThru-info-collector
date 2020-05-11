@@ -28,14 +28,14 @@ sudo gem install nokogiri
 Open Terminal app or other console app and execute:
 
 ```
-ruby SyncThru-info-collector.rb printer_list.txt
+ruby SyncThru-info-collector.rb mfps_list.txt
 ```
 
 By default the program searches for all the multifunctional ones in the list, but you can limit by adding the remaining number of toner, 
-In this example we see how to search for multifunctionals with remaining toner equal to or less than 40%:
+In this example we see how to search for multifunctionals with remaining toner equal to or less than 50%:
 
 ```
-ruby SyncThru-info-collector.rb printer_list.txt 40
+ruby SyncThru-info-collector.rb mfps_list.txt 50
 ```
 
 
