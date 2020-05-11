@@ -1,0 +1,52 @@
+# SyncThru-info-collector
+Samsung multifunctional toner information collector with SyncThru embedded web server
+
+![Image description](https://github.com/jonathanburgossaldivia/SyncThru-info-collector/blob/master/terminal_app.png)
+
+## General information
+
+Tested only on macOS Catalina, it should work on Linux.
+
+### Prerequisites
+
+Required gems:
+
+```
+nokogiri, net-ping
+```
+
+### Installing
+
+If you are using macOS, the way to install the gems one by one is like this:
+
+```
+sudo gem install nokogiri
+```
+
+### How to use
+
+Open Terminal app or other console app and execute:
+
+```
+ruby SyncThru-info-collector.rb printer_list.txt
+```
+
+By default the program searches for all the multifunctional ones in the list, but you can limit by adding the remaining number of toner, 
+In this example we see how to search for multifunctionals with remaining toner equal to or less than 40%:
+
+```
+ruby SyncThru-info-collector.rb printer_list.txt 40
+```
+
+
+## Built With
+
+* ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.x86_64-darwin19]
+
+## Authors
+
+* **Jonathan Burgos Saldivia** - *on Github* - [jonathanburgossaldivia](https://github.com/jonathanburgossaldivia)
+
+## License
+
+This project is licensed under the Eclipse Public License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
