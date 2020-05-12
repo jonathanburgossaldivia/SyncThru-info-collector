@@ -72,5 +72,5 @@ end
 
 unless not_available.nil?
   puts 'Not avalaible devices:'
-  not_available.each { |ip| puts ip }
+  not_available.each(&method(:puts))
 end
