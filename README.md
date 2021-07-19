@@ -1,7 +1,7 @@
 # SyncThru-info-collector
 Samsung multifunctional toner information collector with SyncThru embedded web server, tested with embedded web servers of Samsung M5360RX, M5370LX and K7600LX MFPs
 
-![Image description](https://github.com/jonathanburgossaldivia/SyncThru-info-collector/blob/master/terminal_app.png)
+![Image description](https://github.com/jonathanburgossaldivia/SyncThru-info-collector/blob/master/Konsole.png)
 
 ## General information
 
